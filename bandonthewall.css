@@ -1,3 +1,28 @@
  body{
-     background-color: lightsteelblue;
+     background-color: mediumpurple;
  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: magenta;
+    color: whitesmoke
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: pink
+}
